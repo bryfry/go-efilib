@@ -1,8 +1,9 @@
-module github.com/canonical/go-efilib
+module github.com/bryfry/go-efilib
 
 go 1.18
 
 require (
+	github.com/canonical/go-efilib v1.2.0
 	github.com/jessevdk/go-flags v1.5.0
 	golang.org/x/crypto v0.9.0
 	golang.org/x/sys v0.8.0
