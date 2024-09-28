@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"math"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 )
 
 func handleIDEDevicePathNode(state *devicePathBuilderState) error {

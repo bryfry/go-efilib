@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 )
 
 // acpiIdRE matches a ACPI or PNP ID, capturing the vendor and product.

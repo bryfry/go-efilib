@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 )
 
 // scsiRE matches a SCSI path, capturing the channel, target and LUN.

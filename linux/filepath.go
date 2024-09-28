@@ -15,7 +15,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 )
 
 func init() {

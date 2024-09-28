@@ -5,7 +5,7 @@
 package efi
 
 import (
-	"github.com/canonical/go-efilib/internal/uefi"
+	"github.com/bryfry/go-efilib/internal/uefi"
 )
 
 var (

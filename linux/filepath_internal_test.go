@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 	"golang.org/x/sys/unix"
 
 	. "gopkg.in/check.v1"

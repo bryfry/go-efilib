@@ -14,7 +14,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/canonical/go-efilib/internal/uefi"
+	"github.com/bryfry/go-efilib/internal/uefi"
 )
 
 // LoadOptionClass describes a class of load option

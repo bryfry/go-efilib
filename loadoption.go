@@ -11,7 +11,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/canonical/go-efilib/internal/uefi"
+	"github.com/bryfry/go-efilib/internal/uefi"
 )
 
 // LoadOptionAttributes corresponds to the attributes of a load option

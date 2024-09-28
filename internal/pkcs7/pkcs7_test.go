@@ -12,7 +12,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	. "github.com/canonical/go-efilib/internal/pkcs7"
+	. "github.com/bryfry/go-efilib/internal/pkcs7"
 )
 
 func Test(t *testing.T) { TestingT(t) }

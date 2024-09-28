@@ -13,7 +13,7 @@ import (
 	"regexp"
 	"strconv"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 )
 
 var classRE = regexp.MustCompile(`^0x([[:xdigit:]]+)$`)

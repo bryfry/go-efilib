@@ -10,7 +10,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	. "github.com/canonical/go-efilib/mbr"
+	. "github.com/bryfry/go-efilib/mbr"
 )
 
 func Test(t *testing.T) { TestingT(t) }

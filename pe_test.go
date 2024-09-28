@@ -8,7 +8,7 @@ import (
 	"crypto"
 	"os"
 
-	. "github.com/canonical/go-efilib"
+	. "github.com/bryfry/go-efilib"
 
 	. "gopkg.in/check.v1"
 )

@@ -12,8 +12,8 @@ import (
 	"hash/crc32"
 	"io"
 
-	"github.com/canonical/go-efilib/internal/uefi"
-	"github.com/canonical/go-efilib/mbr"
+	"github.com/bryfry/go-efilib/internal/uefi"
+	"github.com/bryfry/go-efilib/mbr"
 )
 
 var (

@@ -13,8 +13,8 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	efi "github.com/canonical/go-efilib"
-	internal_unix "github.com/canonical/go-efilib/internal/unix"
+	efi "github.com/bryfry/go-efilib"
+	internal_unix "github.com/bryfry/go-efilib/internal/unix"
 )
 
 func getSectorSize(f *os.File) (int64, error) {

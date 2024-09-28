@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/canonical/go-efilib/internal/uefi"
+	"github.com/bryfry/go-efilib/internal/uefi"
 )
 
 // SignatureData corresponds to the EFI_SIGNATURE_DATA type.

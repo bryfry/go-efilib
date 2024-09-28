@@ -18,9 +18,9 @@ import (
 	"golang.org/x/crypto/cryptobyte"
 	cryptobyte_asn1 "golang.org/x/crypto/cryptobyte/asn1"
 
-	"github.com/canonical/go-efilib/internal/ioerr"
-	"github.com/canonical/go-efilib/internal/pkcs7"
-	"github.com/canonical/go-efilib/internal/uefi"
+	"github.com/bryfry/go-efilib/internal/ioerr"
+	"github.com/bryfry/go-efilib/internal/pkcs7"
+	"github.com/bryfry/go-efilib/internal/uefi"
 )
 
 var (

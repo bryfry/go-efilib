@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 )
 
 // ReadPartitionTable reads a complete GUID partition table from the supplied

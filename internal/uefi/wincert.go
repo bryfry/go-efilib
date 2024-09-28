@@ -9,7 +9,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/canonical/go-efilib/internal/ioerr"
+	"github.com/bryfry/go-efilib/internal/ioerr"
 )
 
 const (

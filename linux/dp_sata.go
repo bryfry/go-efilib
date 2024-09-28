@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 )
 
 func handleSATADevicePathNode(state *devicePathBuilderState) error {

@@ -13,7 +13,7 @@ import (
 	"regexp"
 	"strconv"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 )
 
 // nvmeNSRe matches "nvme/nvme<ctrl_id>/nvme<ctrl_id>n<ns_id>", capturing ns_id

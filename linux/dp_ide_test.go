@@ -9,7 +9,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 )
 
 type ideSuite struct {

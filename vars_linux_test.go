@@ -17,7 +17,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	. "github.com/canonical/go-efilib"
+	. "github.com/bryfry/go-efilib"
 )
 
 const immutableFlag = 0x00000010

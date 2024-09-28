@@ -12,7 +12,7 @@ import (
 	"io"
 	"regexp"
 
-	"github.com/canonical/go-efilib/internal/uefi"
+	"github.com/bryfry/go-efilib/internal/uefi"
 )
 
 // GUID corresponds to the EFI_GUID type.

@@ -7,7 +7,7 @@ package linux
 import (
 	"path/filepath"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 	. "gopkg.in/check.v1"
 )
 

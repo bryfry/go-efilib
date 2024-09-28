@@ -11,7 +11,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	. "github.com/canonical/go-efilib/internal/ioerr"
+	. "github.com/bryfry/go-efilib/internal/ioerr"
 )
 
 func Test(t *testing.T) { TestingT(t) }

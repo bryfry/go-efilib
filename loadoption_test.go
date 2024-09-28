@@ -9,7 +9,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	. "github.com/canonical/go-efilib"
+	. "github.com/bryfry/go-efilib"
 )
 
 type loadoptionSuite struct{}

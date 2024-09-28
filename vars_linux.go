@@ -17,7 +17,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	internal_unix "github.com/canonical/go-efilib/internal/unix"
+	internal_unix "github.com/bryfry/go-efilib/internal/unix"
 )
 
 func efivarfsPath() string {

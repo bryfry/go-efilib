@@ -17,9 +17,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/canonical/go-efilib/internal/ioerr"
-	"github.com/canonical/go-efilib/internal/uefi"
-	"github.com/canonical/go-efilib/mbr"
+	"github.com/bryfry/go-efilib/internal/ioerr"
+	"github.com/bryfry/go-efilib/internal/uefi"
+	"github.com/bryfry/go-efilib/mbr"
 )
 
 // DevicePathMatch indicates how a device path matched
@@ -1156,7 +1156,7 @@ var (
 // in such a way (this package doesn't yet have any ways of parsing device paths
 // that are in string form).
 //
-// Just importing [github.com/canonical/go-efilib/guids] is sufficient to register
+// Just importing [github.com/bryfry/go-efilib/guids] is sufficient to register
 // a function that does this. It's included in a separate and optional package for
 // systems that are concerned about binary size.
 func RegisterMediaFvFileNameLookup(fn func(GUID) (string, bool)) {
@@ -1212,7 +1212,7 @@ var (
 // in such a way (this package doesn't yet have any ways of parsing device paths
 // that are in string form).
 //
-// Just importing [github.com/canonical/go-efilib/guids] is sufficient to register
+// Just importing [github.com/bryfry/go-efilib/guids] is sufficient to register
 // a function that does this. It's included in a separate and optional package for
 // systems that are concerned about binary size.
 func RegisterMediaFvNameLookup(fn func(GUID) (string, bool)) {

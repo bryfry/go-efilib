@@ -11,8 +11,8 @@ import (
 	"golang.org/x/sys/unix"
 	. "gopkg.in/check.v1"
 
-	efi "github.com/canonical/go-efilib"
-	. "github.com/canonical/go-efilib/linux"
+	efi "github.com/bryfry/go-efilib"
+	. "github.com/bryfry/go-efilib/linux"
 )
 
 type filepathSuite struct {

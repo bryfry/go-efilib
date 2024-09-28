@@ -15,8 +15,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/canonical/go-efilib/internal/ioerr"
-	"github.com/canonical/go-efilib/internal/uefi"
+	"github.com/bryfry/go-efilib/internal/ioerr"
+	"github.com/bryfry/go-efilib/internal/uefi"
 )
 
 // VariableAuthentication corresponds to the EFI_VARIABLE_AUTHENTICATION
