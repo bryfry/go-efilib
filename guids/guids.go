@@ -14,7 +14,7 @@ import (
 	"bytes"
 	"sort"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 )
 
 // FileOrVolumeNameString returns the semi-readable name for the supplied

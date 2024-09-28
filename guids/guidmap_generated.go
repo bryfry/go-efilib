@@ -7,7 +7,7 @@
 package guids
 
 import (
-	"github.com/canonical/go-efilib"
+	"github.com/bryfry/go-efilib"
 )
 
 var guidToNameMap map[efi.GUID]string

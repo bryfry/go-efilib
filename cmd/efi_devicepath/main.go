@@ -11,8 +11,8 @@ import (
 
 	"github.com/jessevdk/go-flags"
 
-	efi "github.com/canonical/go-efilib"
-	"github.com/canonical/go-efilib/linux"
+	efi "github.com/bryfry/go-efilib"
+	"github.com/bryfry/go-efilib/linux"
 )
 
 type mode linux.FilePathToDevicePathMode

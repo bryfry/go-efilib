@@ -7,8 +7,8 @@ package guids_test
 import (
 	"testing"
 
-	efi "github.com/canonical/go-efilib"
-	. "github.com/canonical/go-efilib/guids"
+	efi "github.com/bryfry/go-efilib"
+	. "github.com/bryfry/go-efilib/guids"
 	. "gopkg.in/check.v1"
 )
 

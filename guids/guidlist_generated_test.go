@@ -7,7 +7,7 @@
 package guids_test
 
 import (
-	"github.com/canonical/go-efilib"
+	"github.com/bryfry/go-efilib"
 )
 
 var allGuids []efi.GUID
