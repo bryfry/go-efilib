@@ -7,7 +7,7 @@ import (
 	"os"
 	"sort"
 
-	efi "github.com/canonical/go-efilib"
+	efi "github.com/bryfry/go-efilib"
 )
 
 func run() error {
@@ -63,7 +63,7 @@ func run() error {
 package %s
 
 import (
-	"github.com/canonical/go-efilib"
+	"github.com/bryfry/go-efilib"
 )
 `, pkgname); err != nil {
 		return fmt.Errorf("cannot write header: %w", err)
